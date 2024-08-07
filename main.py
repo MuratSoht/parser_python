@@ -36,4 +36,3 @@ if len(choice) > 0:
 for key, value in res.items():
     ws.append([key, value['description'], value['price'], value['url']])
     wb.save(file_name)
-print(res)
